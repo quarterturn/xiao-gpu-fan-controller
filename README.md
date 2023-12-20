@@ -2,7 +2,7 @@
 A temperature-controlled PWM meant for passive datacenter GPUs
 example: P40, P100, V100
 
-
+```
 hardware:
 Microcontroller: Seeed XIAO
 Recommended fan: Apple iMac 27" A1312 2009, 2010, 2011 Optical Drive Fan - BFB0812HD 610-0035
@@ -39,3 +39,4 @@ PWM output channel:
 The code is set up for a single NTC and PWM, it's straightforward enough you'll figure out how to modify it to add more sensors and output.
 The code outputs sensor and PWM values to USB serial. Compare to nvidia-smi or nvtop and see if it works for your sensor placement. If not, adjust the temperature range in the code.
 
+```
